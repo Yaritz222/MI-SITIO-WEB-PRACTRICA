@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Burger Lab - Hamburguesas Artesanales</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav-container">
+            <div class="logo">The Burger Lab</div>
+            <ul class="nav-links">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#menu">Menú</a></li>
+                <li><a href="#nosotros">Nosotros</a></li>
+                <li><a href="#ubicacion">Ubicación</a></li>
+            </ul>
+            <div class="hamburger">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="hero">
+        <div class="hero-content">
+            <h1>La Hamburguesa que Rompe las Reglas</h1>
+            <a href="#menu" class="btn">Ver Menú</a>
+        </div>
+    </section>
+
+    <!-- Nuestras Joyas -->
+    <section id="menu" class="menu-section">
+        <h2>Nuestras Joyas</h2>
+        <div class="menu-grid">
+            <div class="menu-item">
+                <div class="item-image" style="background-image: url('https://images.unsplash.com/photo-1568901346375-23c9450c58cd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=999&q=80');"></div>
+                <h3>La Clásica</h3>
+                <p>Carne 100% res, queso cheddar, lechuga, tomate y nuestra salsa especial.</p>
+                <span class="price">$12.99</span>
+            </div>
+            <div class="menu-item">
+                <div class="item-image" style="background-image: url('https://images.unsplash.com/photo-1553979459-d2229ba7433b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80');"></div>
+                <h3>La BBQ-Bacon</h3>
+                <p>Doble carne, bacon crujiente, cebolla caramelizada y salsa BBQ casera.</p>
+                <span class="price">$15.99</span>
+            </div>
+            <div class="menu-item">
+                <div class="item-image" style="background-image: url('https://images.unsplash.com/photo-1582196016299-f8c43bd32c9f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80');"></div>
+                <h3>Veggie-Mushroom</h3>
+                <p>Hamburguesa de champiñones portobello, queso de cabra, rúcula y mayonesa de ajo.</p>
+                <span class="price">$13.99</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Promoción del Día -->
+    <section class="promo-banner">
+        <div class="promo-content">
+            <h2>¡Hora Feliz!</h2>
+            <p>Todos los días de 3:00 PM a 6:00 PM</p>
+            <p>2x1 en todas nuestras hamburguesas</p>
+        </div>
+    </section>
+
+    <!-- Sección de Pizzas -->
+    <section class="menu-section" id="pizzas">
+        <h2>Nuestras Pizzas</h2>
+        <div class="menu-grid">
+            <div class="menu-item">
+                <div class="item-image" style="background-image: url('https://images.unsplash.com/photo-1604382355076-af4b0eb60143?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80');"></div>
+                <h3>Pepperoni Clásica</h3>
+                <p>Salsa de tomate, mozzarella y abundante pepperoni.</p>
+                <span class="price">$14.99</span>
+            </div>
+            <div class="menu-item">
+                <div class="item-image" style="background-image: url('https://images.unsplash.com/photo-1574071318503-7c139b0876a4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80');"></div>
+                <h3>Margarita</h3>
+                <p>Salsa de tomate, mozzarella fresca, albahaca y aceite de oliva.</p>
+                <span class="price">$13.99</span>
+            </div>
+            <div class="menu-item">
+                <div class="item-image" style="background-image: url('https://images.unsplash.com/photo-1513104890138-7c749659a591?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80');"></div>
+                <h3>Hawaiana</h3>
+                <p>Salsa de tomate, mozzarella, jamón y piña asada.</p>
+                <span class="price">$15.99</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de Papas y Entradas -->
+    <section class="menu-section" id="entradas">
+        <h2>Papas y Entradas</h2>
+        <div class="menu-grid">
+            <div class="menu-item">
+                <div class="item-image" style="background-image: url('https://images.unsplash.com/photo-1541592106389-bfe25166c2b4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80');"></div>
+                <h3>Papas Trufadas</h3>
+                <p>Papas fritas crujientes con aceite de trufa y parmesano.</p>
+                <span class="price">$8.99</span>
+            </div>
+            <div class="menu-item">
+                <div class="item-image" style="background-image: url('https://images.unsplash.com/photo-1567620838903-3e826d2d9d3a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80');"></div>
+                <h3>Alitas BBQ</h3>
+                <p>Alitas de pollo bañadas en nuestra salsa BBQ casera.</p>
+                <span class="price">$10.99</span>
+            </div>
+            <div class="menu-item">
+                <div class="item-image" style="background-image: url('https://images.unsplash.com/photo-1608036600297-47321750d5de?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80');"></div>
+                <h3>Palitos de Queso</h3>
+                <p>Palitos de queso mozzarella empanizados y fritos.</p>
+                <span class="price">$7.99</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de Bebidas y Postres -->
+    <section class="menu-section" id="bebidas">
+        <h2>Bebidas y Postres</h2>
+        <div class="menu-grid">
+            <div class="menu-item">
+                <div class="item-image" style="background-image: url('https://images.unsplash.com/photo-1577805947697-1e6efc93de24?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80');"></div>
+                <h3>Milkshake de Oreo</h3>
+                <p>Batido cremoso con helado de vainilla y galletas Oreo trituradas.</p>
+                <span class="price">$6.99</span>
+            </div>
+            <div class="menu-item">
+                <div class="item-image" style="background-image: url('https://images.unsplash.com/photo-1600271886745-fbacb0daafcd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80');"></div>
+                <h3>Limonada de Coco</h3>
+                <p>Refrescante limonada con toques de coco y hierbabuena.</p>
+                <span class="price">$4.99</span>
+            </div>
+            <div class="menu-item">
+                <div class="item-image" style="background-image: url('https://images.unsplash.com/photo-1551024601-bec78aea704c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80');"></div>
+                <h3>Brownie con Helado</h3>
+                <p>Brownie caliente de chocolate con helado de vainilla y salsa de chocolate.</p>
+                <span class="price">$7.99</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Nosotros -->
+    <section id="nosotros" class="about-section">
+        <div class="container">
+            <h2>Nuestra Historia</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>En <strong>The Burger Lab</strong>, comenzamos como un pequeño local familiar con una pasión por crear las mejores hamburguesas artesanales. Nuestro fundador, un apasionado chef con más de 15 años de experiencia, soñaba con un lugar donde la calidad de los ingredientes y el sabor fueran la prioridad.</p>
+                    <p>Hoy, seguimos manteniendo esa esencia artesanal, seleccionando cuidadosamente cada ingrediente y preparando todo desde cero en nuestras cocinas. Nuestras carnes son 100% de res alimentada con pasto, nuestros panes se hornean diariamente y nuestras salsas son recetas exclusivas que han pasado por numerosas pruebas hasta alcanzar la perfección.</p>
+                    <p>En The Burger Lab no solo servimos comida, creamos experiencias que despiertan los sentidos y dejan recuerdos inolvidables.</p>
+                </div>
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Equipo de The Burger Lab">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Ubicación -->
+    <section id="ubicacion" class="location-section">
+        <div class="container">
+            <h2>Encuéntranos</h2>
+            <div class="location-content">
+                <div class="location-info">
+                    <h3>Horario de Atención</h3>
+                    <ul class="schedule">
+                        <li><strong>Lunes a Jueves:</strong> 12:00 PM - 10:00 PM</li>
+                        <li><strong>Viernes y Sábado:</strong> 12:00 PM - 12:00 AM</li>
+                        <li><strong>Domingo:</strong> 12:00 PM - 9:00 PM</li>
+                        <li><strong>Hora Feliz:</strong> Lunes a Domingo 3:00 PM - 6:00 PM</li>
+                    </ul>
+                    <div class="contact-info">
+                        <p><i class="fas fa-map-marker-alt"></i> Calle Sabor 123, Colonia Delicias, CDMX</p>
+                        <p><i class="fas fa-phone"></i> (55) 1234-5678</p>
+                        <p><i class="fas fa-envelope"></i> hola@theburgerlab.com</p>
+                    </div>
+                </div>
+                <div class="map-container">
+                    <div class="map">
+                        <iframe 
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15050.22463992137!2d-99.1683307!3d19.427025!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1ff2b3f509719%3A0x764a0a5a4a565f90!2sZ%C3%B3calo%2C%20Centro%20Hist%C3%B3rico%20de%20la%20Cdad.%20de%20M%C3%A9xico%2C%20Centro%2C%20Ciudad%20de%20M%C3%A9xico%2C%20CDMX!5e0!3m2!1ses-419!2smx!4v1620000000000!5m2!1ses-419!2smx" 
+                            width="100%" 
+                            height="100%" 
+                            style="border:0;" 
+                            allowfullscreen="" 
+                            loading="lazy">
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Dirección</h3>
+                <p>Calle Sabor 123</p>
+                <p>Colonia Delicias, CDMX</p>
+            </div>
+            <div class="footer-section">
+                <h3>Horario</h3>
+                <p>Lunes a Jueves: 12:00 PM - 10:00 PM</p>
+                <p>Viernes a Sábado: 12:00 PM - 12:00 AM</p>
+                <p>Domingo: 12:00 PM - 8:00 PM</p>
+            </div>
+            <div class="footer-section">
+                <h3>Síguenos</h3>
+                <div class="social-links">
+                    <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 The Burger Lab. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
