@@ -1,7 +1,3 @@
-¡Claro! Aquí tienes el contenido exacto que debe llevar tu archivo README.md.
-
-Puedes copiar este texto, crear un archivo nuevo en Windsurf llamado README.md y pegarlo ahí:
-
 🍔 The Burger Lab - Hamburguesas Artesanales
 Bienvenido al repositorio de The Burger Lab, un sitio web moderno y responsivo diseñado para una experiencia gastronómica única.
 
